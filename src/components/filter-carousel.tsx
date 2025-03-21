@@ -23,6 +23,7 @@ interface FilterCarouselProps {
 export const FilterCarousel = ({
   value,
   isLoading,
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   onSelect,
   data,
 }: FilterCarouselProps) => {
